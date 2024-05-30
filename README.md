@@ -22,10 +22,11 @@ The project is a work in progress and is not yet complete.
 1. Fork the repository (check "copy the main branch only") and clone your fork to your local machine
 2. Run `npm install`
 3. Create a `.env.local` file in the root directory and add the following environment variables:
-   - `DATABASE_URL` - the URL of your Postgres database (eg. the Supabase connection string)
-   - `AUTH_SECRET` - the Next Auth secret string (this can be anything at all like a password, but keep it secret!)
-   - `AUTH_GITHUB_ID` - the GitHub OAuth client ID (create yours in [Github developer settings](https://github.com/settings/developers)
-   - `AUTH_GITHUB_SECRET` - the GitHub OAuth client secret (create this in [Github developer settings](https://github.com/settings/developers))
+   AUTH_SECRET=<b4e2ec665755d52a0f6011e2b79cfa20bfb75392>
+   AUTH_GITHUB_ID=Iv23lidu2DNxQIYFUtVp
+   AUTH_GITHUB_SECRET=b4e2ec665755d52a0f6011e2b79cfa20bfb75392
+   DATABASE_URL=postgres://postgres.ftzhrrrsbecpxlseeejv:DDcxW9KyLFbu8vDZ@aws-0-eu-central-1.pooler.supabase.com:5432/postgres
+
 4. Create the database schema by running the SQL commands in `schema.sql` in your database (eg. by running the commands in Supabase Query Editor)
 5. Run `npm run dev` to start the development server
 6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the site
